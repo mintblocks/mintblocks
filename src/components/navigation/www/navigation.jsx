@@ -93,7 +93,7 @@ class Navigation extends React.Component {
         window.location.href = targetUrl;
     }
     render () {
-        const createLink = this.props.user ? '/projects/editor/' : '/projects/editor/?tutorial=getStarted';
+        const createLink = this.props.user ? '/projects/editor' : '/projects/editor';
         return (
             <NavigationBox
                 className={classNames({
