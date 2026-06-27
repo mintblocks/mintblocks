@@ -1,7 +1,9 @@
-{
-  "name": "splash",
-  "pattern": "^/?$",
-  "routeAlias": "/?$",
-  "view": "splash/splash",
-  "title": "Imagine, Program, Share"
-}
+[
+    {
+        "name": "splash",
+        "pattern": "^/?$",
+        "routeAlias": "/?$",
+        "view": "splash/splash",
+        "title": "Imagine, Program, Share"
+    }
+]
