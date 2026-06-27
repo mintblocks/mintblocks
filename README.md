@@ -1,4 +1,7 @@
-# scratch-www
+# mintblocks
+#### this is the homepage of mintblocks. it is forked from scratch-www, but i will remove everything except the homepage stuff
+
+<!-- # scratch-www
 #### Standalone web client for Scratch
 
 [![Build Status](https://travis-ci.org/LLK/scratch-www.svg)](https://travis-ci.org/LLK/scratch-www)
