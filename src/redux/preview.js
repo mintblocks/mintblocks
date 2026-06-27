@@ -198,7 +198,7 @@ module.exports.setVisibilityInfo = visibilityInfo => ({
 
 module.exports.getProjectInfo = (id, token) => (dispatch => {
     const opts = {
-        uri: `/projects/${id}`
+        uri: `/projects/#${id}`
     };
     if (token) {
         Object.assign(opts, {authentication: token});
@@ -293,7 +293,7 @@ module.exports.getParentInfo = id => (dispatch => {
 module.exports.getFavedStatus = (id, username, token) => (dispatch => {
     dispatch(module.exports.setFetchStatus('faved', module.exports.Status.FETCHING));
     api({
-        uri: `/projects/${id}/favorites/user/${username}`,
+        uri: `/projects/#${id}/favorites/user/${username}`,
         authentication: token
     }, (err, body) => {
         if (err) {
@@ -315,7 +315,7 @@ module.exports.setFavedStatus = (faved, id, username, token) => (dispatch => {
     dispatch(module.exports.setFetchStatus('faved', module.exports.Status.FETCHING));
     if (faved) {
         api({
-            uri: `/projects/${id}/favorites/user/${username}`,
+            uri: `/projects/#${id}/favorites/user/${username}`,
             authentication: token,
             method: 'POST'
         }, (err, body) => {
@@ -332,7 +332,7 @@ module.exports.setFavedStatus = (faved, id, username, token) => (dispatch => {
         });
     } else {
         api({
-            uri: `/projects/${id}/favorites/user/${username}`,
+            uri: `/projects/#${id}/favorites/user/${username}`,
             authentication: token,
             method: 'DELETE'
         }, (err, body) => {
