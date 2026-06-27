@@ -12,17 +12,15 @@ module.exports = {
     inject: false,
 
     // Search and metadata
-    title: 'Imagine, Program, Share',
+    title: 'Turbowarp with Online Projects!',
     description:
-        'Scratch is a free programming language and online community ' +
-        'where you can create your own interactive stories, games, ' +
-        'and animations.',
+        'Mintblocks is a mod of Turbowarp that adds online projects!',
 
     // override if mobile-friendly
     viewportWidth: 'device-width',
 
     // Open graph
-    og_image: 'https://scratch.mit.edu/images/scratch-og.png',
+    og_image: '/images/scratch-og.png',
     og_image_type: 'image/png',
     og_image_width: 986,
     og_image_height: 860,
