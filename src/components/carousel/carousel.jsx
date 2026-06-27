@@ -68,7 +68,7 @@ const Carousel = ({
                     href = `/studios/${item.id}/`;
                     break;
                 case 'project':
-                    href = `/projects/${item.id}${
+                    href = `/projects/#${item.id}${
                         fromStarterProjectsPage ?
                             '?fromStarterProjectsPage=true' :
                             ''

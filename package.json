@@ -1,7 +1,7 @@
 {
   "name": "www",
   "version": "1.0.0",
-  "description": "Standalone WWW client for Scratch",
+  "description": "Homepage for Mintblocks",
   "scripts": {
     "start": "node ./dev-server/index.js",
     "test": "npm run test:lint && npm run build && npm run test:unit",
@@ -38,14 +38,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/scratchfoundation/scratch-www.git"
+    "url": "git+ssh://git@github.com/mintblocks/mintblocks.github.io.git"
   },
   "author": "Massachusetts Institute of Technology",
   "license": "AGPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/scratchfoundation/scratch-www/issues"
+    "url": "https://github.com/mintblocks/mintblocks.github.io/issues"
   },
-  "homepage": "https://github.com/scratchfoundation/scratch-www#readme",
+  "homepage": "https://github.com/mintblocks/mintblocks.github.io#readme",
   "dependencies": {
     "bunyan": "1.8.15",
     "clipboard-copy": "2.0.1",

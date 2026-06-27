@@ -322,8 +322,8 @@ module.exports = {
         }),
         new webpack.DefinePlugin({
             'process.env.NODE_ENV': `"${process.env.NODE_ENV || 'development'}"`,
-            'process.env.API_HOST': `"${process.env.API_HOST || 'https://api.scratch.mit.edu'}"`,
-            'process.env.ROOT_URL': `"${process.env.ROOT_URL || 'https://scratch.mit.edu'}"`,
+            'process.env.API_HOST': `"${process.env.API_HOST || 'https://trampoline.turbowarp.org/'}"`,
+            'process.env.ROOT_URL': `"${process.env.ROOT_URL || 'https://mintblocks.github.io/'}"`,
             'process.env.RECAPTCHA_SITE_KEY': `"${
                 process.env.RECAPTCHA_SITE_KEY || '6Lf6kK4UAAAAABKTyvdSqgcSVASEnMrCquiAkjVW'}"`,
             'process.env.ASSET_HOST': `"${process.env.ASSET_HOST || 'https://assets.scratch.mit.edu'}"`,
